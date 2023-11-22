@@ -1,12 +1,11 @@
 const router = require('express').Router();
-const apiRoutes = require('./api');
 
-// appends /api om front of all routes
-router.use('/api', apiRoutes);
+const categoryRoutes = require('./category-routes');
+const productRoutes = require('./product-routes');
+const tagRoutes = require('./tag-routes');
 
-// sends back if route is incorrect in insomnia
-router.use((req, res) => {
-  res.send("<h1>Wrong Route!</h1>")
-});
+router.use('/categories', categoryRoutes);
+router.use('/products', productRoutes);
+router.use('/tags', tagRoutes);
 
 module.exports = router;
