@@ -21,7 +21,7 @@ Video Demonstration:
 
 
 # Credits
-Created by Jandrei Timoteo with the help of Tutor Matthew Calimbas. Starter code retrieved from https://github.com/coding-boot-camp/fantastic-umbrella.
+Created by Jandrei Timoteo with the help of Tutor Sandra Smith. Starter code retrieved from https://github.com/coding-boot-camp/fantastic-umbrella.
 
 # Questions
 For additional questions and information, please go to https://github.com/Jdrei01 or reach out via email at jandreitim@gmail.com.
